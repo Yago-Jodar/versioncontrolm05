@@ -15,14 +15,14 @@ public class Main {
         System.out.println("Welcome to your virtual pet");
         Thread.sleep(2 * 1000);
         do {
-            System.out.println("Is your pet a cat or a dog?");
-            System.out.println("CAT : 1");
-            System.out.println("DOG : 2");
+            System.out.println("Is your pet a bunny or a tortoise?");
+            System.out.println("BUNNY : 1");
+            System.out.println("TORTOISE : 2");
             animal = Teclat.llegirInt();
 
             switch (animal) {
-                case 1 -> typeAnimal = "cat";
-                case 2 -> typeAnimal = "dog";
+                case 1 -> typeAnimal = "bunny";
+                case 2 -> typeAnimal = "tortoise";
                 default -> System.out.println("That wasn't a choice you dummy");
             }
         } while (animal != 1 && animal != 2);
