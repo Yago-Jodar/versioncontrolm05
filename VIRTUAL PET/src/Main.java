@@ -11,7 +11,7 @@ public class Main {
         char decision;
 
 
-        Thread.sleep(2 * 1000);
+        Thread.sleep(1000);
         System.out.println("Welcome to your virtual pet");
         Thread.sleep(2 * 1000);
         do {
